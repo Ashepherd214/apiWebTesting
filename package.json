@@ -1,0 +1,14 @@
+{
+  "name": "firstapp",
+  "version": "0.0.1",
+  "description": "First app using Electron APi",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "aaron.skyylife.com",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.0.2"
+  }
+}

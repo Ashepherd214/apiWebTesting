@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <h1>Welcome to All Quick Repairs ticket submissions</h1>
+        Please Enter the provided information below. We will try to respond as soon as possible.<br />
+
+        <form action="submit_action.php" method="post">
+            Company Name*: <br />
+            <input type="text" name="companyname" required/><br />
+            Representative First Name*: <br />
+            <input type="text" name="firstname" required/><br />
+            Representative Last Name*: <br />
+            <input type="text" name="lastname" required/><br />
+            Contact Phone Number*: <br />
+            <input type="number" name="phonenumber" required/><br />
+            Contact Email: <br />
+            <input type="text" name="emailaddress" /><br />
+            Type of Request*: <br />
+            <select name="requesttype" required>
+                <option value="normal">Normal Request</option>
+                <option value="quote">Quote Request</option>
+                <option value="emergency">Emergency Request</option>
+            </select><br />
+            Description of the problem*:<br />
+            <textarea name="description" rows="15" cols="50" required>
+
+            </textarea><br /><br />
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
